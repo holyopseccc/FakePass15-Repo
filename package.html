@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FakePass15</title>
+  <style>
+    body { max-width: 760px; margin: 40px auto; padding: 0 18px; background: #101217; color: #eee; font: 16px/1.55 system-ui, -apple-system, sans-serif; }
+    code { background: #222630; padding: 2px 6px; border-radius: 5px; }
+    a { color: #8eb0ff; }
+    .warning { padding: 15px; border-left: 4px solid #ffb020; background: #292113; }
+  </style>
+</head>
+<body>
+  <h1>FakePass15 0.1.0 alpha 1</h1>
+  <p>Фальшивый экран ввода PIN на базе системного интерфейса iOS 15.6.1. Предназначен только для iPhone XR с Dopamine rootless.</p>
+  <h2>Возможности</h2>
+  <ul>
+    <li>6-значный тестовый PIN и системный экран ввода.</li>
+    <li>Лимит неверных попыток от 3 до 20.</li>
+    <li>Блокировка от 6 минут до 24 часов.</li>
+    <li>PBKDF2-HMAC-SHA256 для хранения PIN.</li>
+  </ul>
+  <div class="warning"><strong>Ограничение:</strong> это экспериментальная программная защита. Она не включает шифрование iOS, Secure Enclave, Face ID или Apple Pay и обходится при запуске без инъекции твиков. Автоматического стирания устройства нет.</div>
+  <h2>После установки</h2>
+  <ol>
+    <li>Сделайте respring.</li>
+    <li>Откройте «Настройки → Face ID и код-пароль» и убедитесь, что у кнопки есть пометка <code>(FakePass15)</code>.</li>
+    <li>Задайте тестовый шестизначный PIN в «Настройки → FakePass15».</li>
+    <li>Проверьте правильный и неправильный PIN до повседневного использования.</li>
+  </ol>
+  <h2>Восстановление</h2>
+  <p>Запустите Dopamine с отключённой инъекцией твиков, затем удалите <code>net.holyopsec.fakepass15</code> через Sileo. Для удаления сохранённого состояния используйте полное удаление пакета.</p>
+  <p><a href="./">← Репозиторий</a></p>
+</body>
+</html>
