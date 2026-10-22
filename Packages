@@ -20,18 +20,18 @@ Tag: role::hacker
 
 Package: com.opa334.libsandy
 Name: libSandy
-Version: 1.1.6-4
+Version: 1.1.6-4+fakepass15.1
 Architecture: iphoneos-arm64
 Description: Securely extend the sandbox of system processes and user applications
 Maintainer: opa334
 Author: opa334
 Section: System
-Filename: ./com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
-Size: 18154
-MD5sum: f0910991262882d4ffc0b60a5dcc191b
-SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
-SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
-SHA512: c6f466b1b2ce6357171486d176d930d7a79ea2d8c37071368c8153af12fbd88c96a7255568fd22b3d05dddc6901af7f2f3ea8e2b612d66886b7a4b8d7aee4991
+Filename: ./com.opa334.libsandy_1.1.6-4+fakepass15.1_iphoneos-arm64.deb
+Size: 18170
+MD5sum: daa10e419cf46b20b62c8d058290b603
+SHA1: df005af7c4900bffdd7130234bd95bd585d7fbb6
+SHA256: 96de54fb0fd3db9290c5f5703075ce190647aa3d768867e5c4599c7b28206df6
+SHA512: 693eaf7157169eae3b7fcd38f2c10ad3b76bf0b9fb14b89557eb93659443b86a2d5f48c88d89d4c42760219eb7b1683c8bccd46af2418c1e3c4a05ee1cd3e2a0
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Homepage: https://github.com/opa334/libSandy
 Tag: role::developer
