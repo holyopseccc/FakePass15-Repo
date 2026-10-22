@@ -1,6 +1,6 @@
 Package: net.holyopsec.fakepass15
 Name: FakePass15
-Version: 0.1.0~alpha1
+Version: 0.1.0~alpha2
 Architecture: iphoneos-arm64
 Description: Experimental software PIN screen for iPhone XR on iOS 15.6.1 with Dopamine rootless.
 Maintainer: holyopsec
@@ -8,12 +8,12 @@ Author: holyopsec; based on alexia and skfallin
 Section: Tweaks
 Depends: com.opa334.libsandy (>= 1.1.6), cy+cpu.arm64e, firmware (= 15.6.1), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: net.cadoth.fakepass, com.skfallin.fakepassreborn, net.cadoth.fakepass.a12test, com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown, com.rpgfarm.a-shields, net.limneos.bioprotectxs-rootless
-Filename: ./net.holyopsec.fakepass15_0.1.0~alpha1_iphoneos-arm64.deb
-Size: 17756
-MD5sum: b089218ce3c79ca88d4392c82a6dff76
-SHA1: e43af1a5c0fb6f0ba28f663235b05810cee7cd5c
-SHA256: 4ba077fb1c7744f0b5a3f53f704468ce142cf1e1509abb5e54ebb4c3bdb7fb49
-SHA512: 60c3e92f8283419585095ab9557f6f3f4c05b771a6decaa57e2551b52af40ba2895b1c9acb09300e232a04200ec87945ac887804946903d47f8fb3897219f4a2
+Filename: ./net.holyopsec.fakepass15_0.1.0~alpha2_iphoneos-arm64.deb
+Size: 17860
+MD5sum: f32ac8a01315ffdf562ff2b4d02030f1
+SHA1: f8729c2f6554868265e76393b27cf68d4251695b
+SHA256: 3226a7a600ada690211dcc67c6bb1a2bffad377070527c8f9feefd61d8b508d3
+SHA512: 29931ca62ee59afb6d1b62e59b02d3bfa0c130cfe21ebba92b74ca7011ff9a84d8afb783d4e73c30d540572eb56c9ffd73303ff927f4debb2c7185ee584717fc
 Depiction: https://holyopseccc.github.io/FakePass15-Repo/package.html
 Homepage: https://holyopseccc.github.io/FakePass15-Repo/
 Tag: role::hacker
